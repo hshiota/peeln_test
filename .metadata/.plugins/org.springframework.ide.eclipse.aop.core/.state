@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="peeln-lambda-root"/>
+<aop-project name="peeln-lambda-sample"/>
+<aop-project name="peeln-lambda-service"/>
+</aop-reference-model>

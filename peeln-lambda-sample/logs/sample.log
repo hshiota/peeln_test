@@ -1,0 +1,235 @@
+2016-12-01 13:52:49.387  INFO 12168 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 12168 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 13:52:49.402  INFO 12168 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 13:52:49.558  INFO 12168 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:52:49 JST 2016]; root of context hierarchy
+2016-12-01 13:52:55.968  INFO 12168 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 13:52:56.777  INFO 12168 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 13:52:57.338  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:52:57.338  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findAll():
+2016-12-01 13:52:57.447  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@2b289ac9[id=AVi4uoIMMbhVOAAahC3a,firstName=Alice,lastName=Smith]
+2016-12-01 13:52:57.449  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@4eb1c69[id=AVi4uoIXMbhVOAAahC3b,firstName=Bob,lastName=Smith]
+2016-12-01 13:52:57.450  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:52:57.450  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 13:52:57.515  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@6c6333cd[id=AVi4uoIMMbhVOAAahC3a,firstName=Alice,lastName=Smith]
+2016-12-01 13:52:57.517  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:52:57.518  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 13:52:57.525  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@7d9ba6c[id=AVi4uoIMMbhVOAAahC3a,firstName=Alice,lastName=Smith]
+2016-12-01 13:52:57.526  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@8deb645[id=AVi4uoIXMbhVOAAahC3b,firstName=Bob,lastName=Smith]
+2016-12-01 13:52:57.527  INFO 12168 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:52:57.532  INFO 12168 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 9.375 seconds (JVM running for 11.839)
+2016-12-01 13:52:57.533  INFO 12168 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:52:49 JST 2016]; root of context hierarchy
+2016-12-01 13:52:57.536  INFO 12168 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 13:52:57.641  INFO 12168 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-01 13:56:09.083  INFO 13940 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 13940 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 13:56:09.095  INFO 13940 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 13:56:09.268  INFO 13940 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:56:09 JST 2016]; root of context hierarchy
+2016-12-01 13:56:15.875  INFO 13940 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 13:56:16.701  INFO 13940 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 13:56:17.096  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:56:17.101  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findAll():
+2016-12-01 13:56:17.188  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@2b289ac9[id=AVi4vY5gMbhVOAAahC3c,firstName=Alice,lastName=Smith]
+2016-12-01 13:56:17.189  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@4eb1c69[id=AVi4vY5oMbhVOAAahC3d,firstName=Bob,lastName=Smith]
+2016-12-01 13:56:17.189  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:56:17.189  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 13:56:17.225  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@6c6333cd[id=AVi4vY5gMbhVOAAahC3c,firstName=Alice,lastName=Smith]
+2016-12-01 13:56:17.227  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:56:17.228  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 13:56:17.232  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@7d9ba6c[id=AVi4vY5gMbhVOAAahC3c,firstName=Alice,lastName=Smith]
+2016-12-01 13:56:17.232  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@8deb645[id=AVi4vY5oMbhVOAAahC3d,firstName=Bob,lastName=Smith]
+2016-12-01 13:56:17.232  INFO 13940 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:56:17.237  INFO 13940 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 9.379 seconds (JVM running for 11.886)
+2016-12-01 13:56:17.237  INFO 13940 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:56:09 JST 2016]; root of context hierarchy
+2016-12-01 13:56:17.242  INFO 13940 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 13:56:17.332  INFO 13940 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-01 13:58:07.998  INFO 11556 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 11556 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 13:58:08.013  INFO 11556 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 13:58:08.233  INFO 11556 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:58:08 JST 2016]; root of context hierarchy
+2016-12-01 13:58:14.841  INFO 11556 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 13:58:15.683  INFO 11556 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 13:58:16.221  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:58:16.221  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findAll():
+2016-12-01 13:58:16.322  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@2b289ac9[id=AVi4v1-yMbhVOAAahC3e,firstName=Alice,lastName=Smith]
+2016-12-01 13:58:16.322  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@4eb1c69[id=AVi4v1-7MbhVOAAahC3f,firstName=Bob,lastName=Smith]
+2016-12-01 13:58:16.322  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:58:16.327  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 13:58:16.387  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@6c6333cd[id=AVi4v1-yMbhVOAAahC3e,firstName=Alice,lastName=Smith]
+2016-12-01 13:58:16.387  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:58:16.387  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 13:58:16.397  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@7d9ba6c[id=AVi4v1-yMbhVOAAahC3e,firstName=Alice,lastName=Smith]
+2016-12-01 13:58:16.397  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : com.ngc.peeln.es.Customer@8deb645[id=AVi4v1-7MbhVOAAahC3f,firstName=Bob,lastName=Smith]
+2016-12-01 13:58:16.397  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : 
+
+2016-12-01 13:58:16.397  INFO 11556 --- [main] ication$$EnhancerBySpringCGLIB$$d9f8ee8b : lambdaでサービスクラスを呼び出せるかテスト
+
+2016-12-01 13:58:16.407  INFO 11556 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 9.642 seconds (JVM running for 12.103)
+2016-12-01 13:58:16.407  INFO 11556 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 13:58:08 JST 2016]; root of context hierarchy
+2016-12-01 13:58:16.412  INFO 11556 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 13:58:16.509  INFO 11556 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-01 14:17:32.401  INFO 1676 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 1676 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 14:17:32.416  INFO 1676 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 14:17:32.596  INFO 1676 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:17:32 JST 2016]; root of context hierarchy
+2016-12-01 14:17:39.536  INFO 1676 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 14:17:40.461  INFO 1676 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 14:17:40.910  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:17:40.910  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findAll():
+2016-12-01 14:17:41.017  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@7c8d5312[id=AVi40SVLMbhVOAAahC3h,firstName=Alice,lastName=Smith]
+2016-12-01 14:17:41.017  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@7636823f[id=AVi40SVUMbhVOAAahC3i,firstName=Bob,lastName=Smith]
+2016-12-01 14:17:41.017  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:17:41.017  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 14:17:41.057  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@665522c2[id=AVi40SVLMbhVOAAahC3h,firstName=Alice,lastName=Smith]
+2016-12-01 14:17:41.062  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:17:41.062  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 14:17:41.067  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@3062f9f4[id=AVi40SVLMbhVOAAahC3h,firstName=Alice,lastName=Smith]
+2016-12-01 14:17:41.067  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@2016f509[id=AVi40SVUMbhVOAAahC3i,firstName=Bob,lastName=Smith]
+2016-12-01 14:17:41.072  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:17:41.072  INFO 1676 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : lambdaでサービスクラスを呼び出せるかテスト
+
+2016-12-01 14:17:41.072  INFO 1676 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 9.906 seconds (JVM running for 12.421)
+2016-12-01 14:17:41.072  INFO 1676 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:17:32 JST 2016]; root of context hierarchy
+2016-12-01 14:17:41.077  INFO 1676 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 14:17:41.164  INFO 1676 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-01 14:28:10.315  INFO 13468 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 13468 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 14:28:10.325  INFO 13468 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 14:28:10.537  INFO 13468 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:28:10 JST 2016]; root of context hierarchy
+2016-12-01 14:28:17.516  INFO 13468 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 14:28:18.290  INFO 13468 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 14:28:18.732  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:28:18.737  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findAll():
+2016-12-01 14:28:18.818  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@7636823f[id=AVi42uDOMbhVOAAahC3k,firstName=Alice,lastName=Smith]
+2016-12-01 14:28:18.818  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@a0db585[id=AVi42uDXMbhVOAAahC3l,firstName=Bob,lastName=Smith]
+2016-12-01 14:28:18.818  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:28:18.818  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 14:28:18.858  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@41fe8e5f[id=AVi42uDOMbhVOAAahC3k,firstName=Alice,lastName=Smith]
+2016-12-01 14:28:18.858  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:28:18.858  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 14:28:18.863  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@2016f509[id=AVi42uDOMbhVOAAahC3k,firstName=Alice,lastName=Smith]
+2016-12-01 14:28:18.863  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@6f1a80fb[id=AVi42uDXMbhVOAAahC3l,firstName=Bob,lastName=Smith]
+2016-12-01 14:28:18.868  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:28:18.868  INFO 13468 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : lambdaでサービスクラスを呼び出せるかテスト
+
+2016-12-01 14:28:18.868  INFO 13468 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 9.814 seconds (JVM running for 12.645)
+2016-12-01 14:28:18.868  INFO 13468 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:28:10 JST 2016]; root of context hierarchy
+2016-12-01 14:28:18.873  INFO 13468 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 14:28:18.943  INFO 13468 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-01 14:31:27.202  INFO 6248 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR679 with PID 6248 (C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample\target\classes started by yoshihito-nagai in C:\_work\projects\mrw2\workspace\examples\peeln-lambda-sample)
+2016-12-01 14:31:27.217  INFO 6248 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-01 14:31:27.382  INFO 6248 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:31:27 JST 2016]; root of context hierarchy
+2016-12-01 14:31:35.289  INFO 6248 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-01 14:31:36.321  INFO 6248 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-01 14:31:36.851  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:31:36.856  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findAll():
+2016-12-01 14:31:36.931  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@7636823f[id=AVi43eaxMbhVOAAahC3m,firstName=Alice,lastName=Smith]
+2016-12-01 14:31:36.936  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@a0db585[id=AVi43ea-MbhVOAAahC3n,firstName=Bob,lastName=Smith]
+2016-12-01 14:31:36.936  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:31:36.936  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-01 14:31:36.981  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@41fe8e5f[id=AVi43eaxMbhVOAAahC3m,firstName=Alice,lastName=Smith]
+2016-12-01 14:31:36.981  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:31:36.981  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findByLastName('Smith'):
+2016-12-01 14:31:36.991  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@2016f509[id=AVi43eaxMbhVOAAahC3m,firstName=Alice,lastName=Smith]
+2016-12-01 14:31:36.991  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@6f1a80fb[id=AVi43ea-MbhVOAAahC3n,firstName=Bob,lastName=Smith]
+2016-12-01 14:31:36.991  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-01 14:31:36.991  INFO 6248 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : lambdaでサービスクラスを呼び出せるかテスト
+
+2016-12-01 14:31:36.996  INFO 6248 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 11.029 seconds (JVM running for 13.493)
+2016-12-01 14:31:36.996  INFO 6248 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Thu Dec 01 14:31:27 JST 2016]; root of context hierarchy
+2016-12-01 14:31:37.001  INFO 6248 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-01 14:31:37.082  INFO 6248 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-02 16:43:11.326  INFO 1816 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR675 with PID 1816 (C:\prj\peel_java\peeln-lambda-sample\target\classes started by hitoshi-shiota in C:\prj\peel_java\peeln-lambda-sample)
+2016-12-02 16:43:11.372  INFO 1816 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-02 16:43:11.617  INFO 1816 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1de7fb: startup date [Fri Dec 02 16:43:11 JST 2016]; root of context hierarchy
+2016-12-02 16:43:33.940  INFO 1816 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-02 16:43:34.815  INFO 1816 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02 16:44:15.524  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : 
+
+2016-12-02 16:44:15.527  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : >>>>>Customers found with findAll():
+2016-12-02 16:44:15.657  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : com.ngc.peeln.es.Customer@619c93ca[id=AVi-famRMbhVOAAahC35,firstName=Alice,lastName=Smith]
+2016-12-02 16:44:15.659  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : com.ngc.peeln.es.Customer@486e9d1d[id=AVi-famaMbhVOAAahC36,firstName=Bob,lastName=Smith]
+2016-12-02 16:44:15.660  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : com.ngc.peeln.es.Customer@6aa5974e[id=AVi-fbUCMbhVOAAahC37,firstName=Alice,lastName=Smith]
+2016-12-02 16:44:15.661  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : com.ngc.peeln.es.Customer@5e5ddfbc[id=AVi-fblSMbhVOAAahC38,firstName=Bob,lastName=Smith]
+2016-12-02 16:44:15.662  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : 
+
+2016-12-02 16:44:16.249  INFO 1816 --- [main] ication$$EnhancerBySpringCGLIB$$1100ae3e : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-02 16:44:29.699  INFO 1816 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2016-12-02 16:44:29.733 ERROR 1816 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:803) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:784) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:771) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	at com.ngc.peeln.BootApplication.main(BootApplication.java:67) [classes/:na]
+Caused by: java.lang.IllegalArgumentException: Expected 1 but found 2 results
+	at org.springframework.util.Assert.isTrue(Assert.java:68) ~[spring-core-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.data.elasticsearch.core.ElasticsearchTemplate.queryForObject(ElasticsearchTemplate.java:253) ~[spring-data-elasticsearch-2.0.5.RELEASE.jar:na]
+	at org.springframework.data.elasticsearch.repository.query.ElasticsearchPartQuery.execute(ElasticsearchPartQuery.java:78) ~[spring-data-elasticsearch-2.0.5.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:482) ~[spring-data-commons-1.12.5.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:460) ~[spring-data-commons-1.12.5.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.12.5.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at com.sun.proxy.$Proxy49.findByFirstName(Unknown Source) ~[na:na]
+	at com.ngc.peeln.es.SampleServiceImpl.findByFirstName(SampleServiceImpl.java:16) ~[classes/:na]
+	at com.ngc.peeln.BootApplication.fetchIndividualCustomers(BootApplication.java:55) [classes/:na]
+	at com.ngc.peeln.BootApplication.run(BootApplication.java:35) [classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) [spring-boot-1.4.2.RELEASE.jar:1.4.2.RELEASE]
+	... 6 common frames omitted
+
+2016-12-02 16:44:29.739  INFO 1816 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5a1de7fb: startup date [Fri Dec 02 16:43:11 JST 2016]; root of context hierarchy
+2016-12-02 16:44:29.747  INFO 1816 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02 16:44:29.900  INFO 1816 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
+2016-12-02 16:45:06.930  INFO 8568 --- [main] com.ngc.peeln.BootApplication            : Starting BootApplication on PCR675 with PID 8568 (C:\prj\peel_java\peeln-lambda-sample\target\classes started by hitoshi-shiota in C:\prj\peel_java\peeln-lambda-sample)
+2016-12-02 16:45:06.938  INFO 8568 --- [main] com.ngc.peeln.BootApplication            : No active profile set, falling back to default profiles: default
+2016-12-02 16:45:07.072  INFO 8568 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Fri Dec 02 16:45:07 JST 2016]; root of context hierarchy
+2016-12-02 16:45:12.793  INFO 8568 --- [main] o.s.d.e.c.TransportClientFactoryBean     : adding transport node : 10.77.32.96:9300
+2016-12-02 16:45:13.398  INFO 8568 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-02 16:45:13.742  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-02 16:45:13.743  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findAll():
+2016-12-02 16:45:13.798  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@7636823f[id=AVi-fqP2MbhVOAAahC39,firstName=Alice,lastName=Smith]
+2016-12-02 16:45:13.799  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@a0db585[id=AVi-fqQAMbhVOAAahC3-,firstName=Bob,lastName=Smith]
+2016-12-02 16:45:13.800  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-02 16:45:13.800  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customer found with findByFirstName('Alice'):
+2016-12-02 16:45:13.821  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@41fe8e5f[id=AVi-fqP2MbhVOAAahC39,firstName=Alice,lastName=Smith]
+2016-12-02 16:45:13.822  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-02 16:45:13.823  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : >>>>>Customers found with findByLastName('Smith'):
+2016-12-02 16:45:13.828  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@2016f509[id=AVi-fqP2MbhVOAAahC39,firstName=Alice,lastName=Smith]
+2016-12-02 16:45:13.828  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : com.ngc.peeln.es.Customer@6f1a80fb[id=AVi-fqQAMbhVOAAahC3-,firstName=Bob,lastName=Smith]
+2016-12-02 16:45:13.829  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : 
+
+2016-12-02 16:45:13.829  INFO 8568 --- [main] ication$$EnhancerBySpringCGLIB$$82054210 : lambdaでサービスクラスを呼び出せるかテスト
+
+2016-12-02 16:45:13.831  INFO 8568 --- [main] com.ngc.peeln.BootApplication            : Started BootApplication in 7.732 seconds (JVM running for 9.238)
+2016-12-02 16:45:13.832  INFO 8568 --- [main] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d8995e: startup date [Fri Dec 02 16:45:07 JST 2016]; root of context hierarchy
+2016-12-02 16:45:13.834  INFO 8568 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-02 16:45:13.894  INFO 8568 --- [main] s.b.a.d.e.ElasticsearchAutoConfiguration : Closing Elasticsearch client
